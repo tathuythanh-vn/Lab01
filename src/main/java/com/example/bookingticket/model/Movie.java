@@ -1,0 +1,57 @@
+package com.example.bookingticket.model;
+
+public class Movie {
+    private Long id;
+    private String title;
+    private String genre;
+    private double ticketPrice;
+    private String imageUrl;
+
+    public Movie(Long id, String title, String genre, double ticketPrice, String imageUrl) {
+        this.id = id;
+        this.title = title;
+        this.genre = genre;
+        this.ticketPrice = ticketPrice;
+        this.imageUrl = imageUrl;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getGenre() {
+        return genre;
+    }
+
+    public void setGenre(String genre) {
+        this.genre = genre;
+    }
+
+    public double getTicketPrice() {
+        return ticketPrice;
+    }
+
+    public void setTicketPrice(double ticketPrice) {
+        this.ticketPrice = ticketPrice;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+}
